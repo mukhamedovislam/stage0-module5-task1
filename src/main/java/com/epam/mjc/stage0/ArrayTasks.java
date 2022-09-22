@@ -41,7 +41,7 @@ public class ArrayTasks {
      * arr = [5, -3, -4] -> sum = -2
      */
     public int totalSum(int[] arr) {
-	int sum = 0;
+	int result = 0;
 	for(int i : arr){
 		result += i;
 	}
